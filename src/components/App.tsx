@@ -1,5 +1,6 @@
-import React from 'react';
+import React from "react";
+import ControlledAccordions from "./ControlledAccordions";
 
-const App = () => <h1>'Hello from React'</h1>;
+const App = () => <ControlledAccordions />;
 
 export default App;

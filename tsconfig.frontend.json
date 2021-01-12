@@ -2,10 +2,9 @@
   "compilerOptions": {
     "target": "es2015",
     "module": "commonjs",
-    "rootDir": "./",
-    "outDir": "./build",
+    "rootDir": "./src",
     "esModuleInterop": true,
-    "strict": true
+    "strict": true,
+    "jsx": "react"
   },
-  "exclude": ["node_modules", "./src"]
 }
