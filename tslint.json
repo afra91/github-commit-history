@@ -5,10 +5,16 @@
     "tslint-config-prettier",
     "tslint-react"
   ],
+  "plugins": [
+    "react-hooks"
+  ],
   "linterOptions": {
     "exclude": ["node_modules/", "build/", "dist/"]
   },
-  "jsRules": {},
+  "jsRules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
   "rules": {},
   "rulesDirectory": []
 }
